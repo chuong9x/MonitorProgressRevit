@@ -1,33 +1,55 @@
 ﻿using System.Reflection;
+using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Windows;
 
-// 有关程序集的常规信息通过下列属性集
-// 控制。更改这些属性值可修改
-// 与程序集关联的信息。
-[assembly: AssemblyTitle("ProgressBar")]
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+[assembly: AssemblyTitle("MonitorProgressCSharp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("lu")]
-[assembly: AssemblyProduct("ProgressBar")]
-[assembly: AssemblyCopyright("版权所有 (C) lu 2011")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("MonitorProgressCSharp")]
+[assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// 将 ComVisible 设置为 false 使此程序集中的类型
-// 对 COM 组件不可见。如果需要从 COM 访问此程序集中的类型，
-// 则将该类型上的 ComVisible 属性设置为 true。
+// Setting ComVisible to false makes the types in this assembly not visible 
+// to COM components.  If you need to access a type in this assembly from 
+// COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
-// 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("96f46662-497e-4da2-8bdd-d4c614eb74ae")]
+//In order to begin building localizable applications, set 
+//<UICulture>CultureYouAreCodingWith</UICulture> in your .csproj file
+//inside a <PropertyGroup>.  For example, if you are using US english
+//in your source files, set the <UICulture> to en-US.  Then uncomment
+//the NeutralResourceLanguage attribute below.  Update the "en-US" in
+//the line below to match the UICulture setting in the project file.
 
-// 程序集的版本信息由下面四个值组成:
+//[assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.Satellite)]
+
+
+[assembly: ThemeInfo(
+    ResourceDictionaryLocation.None, //where theme specific resource dictionaries are located
+                                     //(used if a resource is not found in the page, 
+                                     // or application resource dictionaries)
+    ResourceDictionaryLocation.SourceAssembly //where the generic resource dictionary is located
+                                              //(used if a resource is not found in the page, 
+                                              // app, or any theme specific resource dictionaries)
+)]
+
+
+// Version information for an assembly consists of the following four values:
 //
-//      主版本
-//      次版本 
-//      内部版本号
-//      修订号
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
 //
+// You can specify all the values or you can default the Build and Revision Numbers 
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
